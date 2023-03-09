@@ -1,0 +1,13 @@
+import java.io.*;
+class vector
+ {
+  public static void main(String[] arg)
+    {
+      String[] nombres = {"javier","Esmeralda","Samuel"};
+      int[] numeros = {5,9,2};
+      System.out.println("La EDAD de "+nombres[0]+" es: "+numeros[0]);
+      System.out.println("La EDAD de "+nombres[1]+" es: "+numeros[1]);
+      System.out.println("La EDAD de "+nombres[2]+" es: "+numeros[2]);
+    }
+
+ }
