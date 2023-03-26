@@ -1,0 +1,49 @@
+class program {
+    program () {
+   // Andar entre muros no es bueno para un robot, por lo
+   // tanto Karel tiene algunos mecanismos salvavidas dentro
+   // de él. Si un programa le dice a Karel que se mueva
+   // aunque haya un muro delante de él, él dirá que hay
+   // un error y no realizará la acción. Lo mismo ocurrirá
+   // si le decimos que coja un zumbador en una esquina y
+   // no existe ninguno. Las únicas órdenes que siempre
+   // lleva a cabo sin importar la situación en la que se
+   // encuentre son turnleft() y turnoff(). Cuando Karel
+   // nos dice que hay un error, no tenemos que echarle la
+   // culpa, sino que probablemente habremos escrito mal
+   // alguna instrucción.
+        // TODO poner codigo aqui
+        turnleft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnleft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnleft();
+        turnoff();
+    }
+}
