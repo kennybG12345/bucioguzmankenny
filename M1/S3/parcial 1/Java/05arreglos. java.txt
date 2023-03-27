@@ -1,0 +1,13 @@
+
+PRÁCTICA #5
+Importar Java. io.*;
+Vector de clase 
+  {
+   public static void main(String[] args)
+     {
+       int[] numeros = {5, 9, 2};
+       sistema. fuera. println("El primer elemento del arreglo es: "+numeros[0]);
+       sistema. fuera. println("El primer elemento del arreglo es: "+numeros[1]);
+       sistema. fuera. println("El primer elemento del arreglo es: "+numeros[2]);
+     }
+  }
