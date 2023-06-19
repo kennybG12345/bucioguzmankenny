@@ -1,0 +1,27 @@
+import java.io.*;
+class busqueda
+{
+    public static void main (String[] args)
+    {
+      int [] buscar = {8,7,-4};
+      int numB=7; 
+      int numE=0;
+      for(int i=0;i<3;i++)
+      {
+        if (numB== buscar[i])
+            {
+            numE=1;
+            i=3;
+            break;
+            }
+            else
+            {
+          numE=0;          
+            }
+      }
+      if (numE ==1)
+      System.out.println("Numero encontrado"+numB);
+      else 
+      System.out.println("Numero No encontrado");
+}
+}
